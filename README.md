@@ -1,7 +1,7 @@
 # diskrename.bash
 This script is for renaming backup disks on macos. Makes uses of diskutil and FileVault.
 
-My backup disk naming convention is <hostname>yyyymmdd. This script unlocks a FileVault encrypted backup disk and updates the date
+My backup disk naming convention is \<hostname\>yyyymmdd. This script unlocks a FileVault encrypted backup disk and updates the date
 portion of the name to the current date.
 
 Example: A backup disk "MyMacBook20190415" is connected to the mac. The disk is locked with FileVault.
